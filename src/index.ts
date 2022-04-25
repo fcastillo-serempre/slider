@@ -10,7 +10,7 @@ import 'slick-carousel/slick/slick.css';
  * @returns void
  *
  */
-const slider = (selector: string, options: object = {}) => {
+export const slider = (selector: string, options: object = {}) => {
   $(selector).slick({
     arrows: true,
     centerMode: true,
@@ -38,4 +38,3 @@ const slider = (selector: string, options: object = {}) => {
     ...options,
   });
 };
-export default slider;
