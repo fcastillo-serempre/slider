@@ -1,6 +1,6 @@
 {
   "name": "@felipecastillo/slider",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A custom slider ready to rock",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
